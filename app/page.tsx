@@ -25,16 +25,21 @@ export default function Component() {
       <Header />
       {/* Hero Section */}
       <NewHero />
-
-        <p className="mt-4 text-center text-xl italic mb-8 text-[#a8905e] font-light">
+      {/* About Section */}
+      <section id="about" className="py-16 md:py-12 bg-white">
+        
+        <div className="container mx-auto px-4 mb">
+                  <p className="text-center text-xl font-robotoCondensed  text-black font-light mb-12">
           Legal expertise you can trust — for the journey that matters most
         </p>
-      {/* About Section */}
-      <section id="about" className="py-16 md:py-24 bg-white">
-        <div className="container mx-auto px-4">
           <div className=" mb-12 text-left">
-            <h2 className="text-3xl md:text-4xl font-bold text-black mb-4 font-fellFrench ">Migration Lawyer Australia</h2>
-            <p className="text-lg text-gray-600 font-fellFrench">Legal Practitioner ID: P0057083</p>
+                        <p className="text-3xl md:text-4xl tracking-wide text-[#a8905e] mb-1 font-semibold font-fellFrench ">
+              Solicitor Of The Supreme Court of Victoria, Australia
+            </p>
+            <p className="text-3xl md:text-4xl tracking-wide text-[#a8905e] font-semibold font-fellFrench ">
+              Barrister and Solicitor of the High Court of New Zealand
+            </p>
+            <div className="mt-4"><span className="text-lg text-gray-600 font-fellFrench">Legal Practitioner ID:</span> <span className="text-gray-600 font-robotoCondensed">P0057083</span></div>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -398,7 +403,7 @@ export default function Component() {
             {/* Column 1: Logo Section */}
             <div className="flex flex-col items-center md:items-start md:col-span-1">
               <Image
-                src="/bg-remove-logo1.png"
+                src="/logo-white-removebg.png"
                 alt="darshan"
                 width={220}     // Adjust width as needed
                 height={40}     // Adjust height as needed
@@ -416,12 +421,12 @@ export default function Component() {
                 </p>
                 {/* Email address - use a standard <a> tag for mailto: links */}
                 <p>
-                  <a href="mailto:elizabethmckinnon@vicbar.com.au" className="hover:text-[#D4AE6E]">www.lawyerdarshan.com.au</a>
+                  <a href="mailto:elizabethmckinnon@vicbar.com.au" className="hover:text-[#D4AE6E]">info@lawyerdarshan.com.au</a>
                 </p>
                 {/* Address details */}
-                <p>Test Street 1</p>
-                <p>999 Test Stree, Melbourne,</p>
-                <p>Victoria 3000, Australia</p>
+                <p>470 St Kilda Road</p>
+                <p>Melbourne</p>
+                <p>Victoria 3004</p>
               </div>
             </div>
 
@@ -455,9 +460,9 @@ export default function Component() {
           </div>
 
           {/* Copyright Section */}
-          <div className="flex justify-between border-t border-gray-700 pt-8 text-center md:text-left text-gray-400 font-robotoCondensed">
+          <div className="flex flex-col md:flex-row md:justify-between border-t border-gray-700 pt-8 text-center md:text-left text-gray-400 font-robotoCondensed">
             <p>&copy; {new Date().getFullYear()} Darshan Rajendran All rights reserved.</p>
-            <p> Website By Umeshika Dewmindi</p>
+            <p> Website By Dew_mindi</p>
           </div>
         </div>
       </footer>
