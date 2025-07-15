@@ -100,7 +100,7 @@ const NewHero = () => {
               </p>
             </div>
 
-            <Link href="tel:0452100888">
+            <Link href="tel:0435166653">
               <Button className="bg-[#a8905e] hover:bg-[#a8905e] text-black font-bold text-xl px-8 py-4 rounded-lg shadow-lg transition-all duration-300">
                 CALL 0435 166 653
               </Button>
