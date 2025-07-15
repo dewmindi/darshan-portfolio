@@ -420,11 +420,11 @@ export default function Component() {
               <div className="space-y-2 font-robotoCondensed">
                 {/* Phone number - use a standard <a> tag for tel: links */}
                 <p>
-                  <a href="tel:0452100888" className="hover:text-[#D4AE6E]">CALL 0435 166 653</a>
+                  <a href="tel:0435 166 653" className="hover:text-[#D4AE6E]">CALL 0435 166 653</a>
                 </p>
                 {/* Email address - use a standard <a> tag for mailto: links */}
                 <p>
-                  <a href="mailto:elizabethmckinnon@vicbar.com.au" className="hover:text-[#D4AE6E]">info@lawyerdarshan.com.au</a>
+                  <a href="mailto:info@lawyerdarshan.com.au" className="hover:text-[#D4AE6E]">info@lawyerdarshan.com.au</a>
                 </p>
                 {/* Address details */}
                 <p>470 St Kilda Road</p>
