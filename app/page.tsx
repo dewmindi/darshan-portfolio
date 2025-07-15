@@ -2,6 +2,7 @@
 import Header from "@/components/header"
 import Hero from "@/components/hero"
 import NewHero from "@/components/NewHero"
+import PartnersSection from "@/components/PartnerSection"
 
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
@@ -43,7 +44,7 @@ export default function Component() {
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-4 text-gray-700 text-center md:text-start leading-relaxed text-lg font-robotoCondensed">
+            <div className="space-y-4 text-gray-700 text-start leading-relaxed text-lg font-robotoCondensed">
               <p className="text-[#a8905e]">
                 Darshan is a highly skilled immigration lawyer with qualifications in Australia and New Zealand,
                 specializing in a wide range of migration matters.
@@ -260,7 +261,9 @@ export default function Component() {
         </div>
       </section>
 
-      <section id="blogs" className="py-16 md:py-24 bg-gray-50">
+      <PartnersSection/>
+
+      <section id="blogs" className="py-16 md:py-24 bg-white">
         <div className=" container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-[#a8905e] mb-12 font-fellFrench">
             Research Articles And Interviews Of Lawyer Darshan
