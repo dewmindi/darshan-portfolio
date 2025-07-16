@@ -153,7 +153,7 @@ export default function Component() {
             Areas Of Practice - Migration Law
           </h2>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 ">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
             {[
               "Tribunal and Court matters",
               "Refugee, Humanitarian and Protection visa",
@@ -183,7 +183,7 @@ export default function Component() {
               // >
               //   <p className="font-medium text-gray-800">{practice}</p>
               // </div>
-              <ul key={index} className="flex justify-between">
+              <ul key={index}>
                 <li className=" list-disc text-white text-base font-robotoCondensed">{practice}</li>
               </ul>
             ))}
