@@ -94,22 +94,31 @@ export default function Component() {
                 />
                 {/* <p className="text-sm text-gray-500 mt-4">[PHOTO – Personal]</p> */}
               </div>
-
+            
               <div className=" p-4 rounded-lg">
                 {/* <p className="text-sm text-gray-600 mb-2">[LOGOS - Migration Alliance and LIV]</p> */}
-                <div className="flex justify-center space-x-4 ">
-                  <div className=" text-black px-3 py-1 rounded text-xs  shadow-lg">          
+                <div className="flex justify-center space-x-4  ">
+                  <div className="flex text-black px-3 py-1 rounded text-xs border hover:scale-110 shadow-md">          
                     <Image
-                    src="/mmalliance-removebg-preview.png"
+                    src="/vlcbLogo.jpeg"
+                    alt="Lawyer Darshan - Professional Photo"
+                    width={200}
+                    height={100}
+                    className="mx-auto rounded-lg object-scale-down "
+                    />
+                  </div>
+                  <div className=" text-black px-3 py-1 rounded text-xs border hover:scale-110 shadow-md">          
+                    <Image
+                    src="/mmalogo.png"
                     alt="Lawyer Darshan - Professional Photo"
                     width={200}
                     height={100}
                     className="mx-auto rounded-lg  "
                     />
                   </div>
-                  <div className="flex text-black px-3 py-1 rounded text-xs  shadow-lg">
+                  <div className="flex text-black px-3 py-1 rounded text-xs border hover:scale-110 shadow-md">
                     <Image
-                      src="/LIV-Logo-removebg-preview.png"
+                      src="/lawins.jpg"
                       alt="Lawyer Darshan - Professional Photo"
                       width={300}
                       height={100}
@@ -144,7 +153,7 @@ export default function Component() {
             Areas Of Practice - Migration Law
           </h2>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 ">
             {[
               "Tribunal and Court matters",
               "Refugee, Humanitarian and Protection visa",
@@ -174,8 +183,8 @@ export default function Component() {
               // >
               //   <p className="font-medium text-gray-800">{practice}</p>
               // </div>
-              <ul key={index}>
-                <li className="list-disc text-white text-lg font-robotoCondensed px-4">{practice}</li>
+              <ul key={index} className="flex justify-between">
+                <li className=" list-disc text-white text-base font-robotoCondensed">{practice}</li>
               </ul>
             ))}
           </div>
@@ -464,7 +473,7 @@ export default function Component() {
 
           {/* Copyright Section */}
           <div className="flex flex-col md:flex-row md:justify-between border-t border-gray-700 pt-8 text-center md:text-left text-gray-400 font-robotoCondensed">
-            <p>&copy; {new Date().getFullYear()} Darshan Rajendran All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Copyright (c) 2025 Lawyer Darshan. All rights reserved.</p>
             <p> Website By Dew_mindi</p>
           </div>
         </div>

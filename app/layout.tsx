@@ -4,9 +4,8 @@ import { robotoCondensed } from './fonts/roboto-condensed';
 import { fellFrench } from './fonts/fell-french';  
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.dev',
+  title: 'Lawyer Darshan',
+  description: 'Migration Lawyer Australia',
 }
 
 export default function RootLayout({

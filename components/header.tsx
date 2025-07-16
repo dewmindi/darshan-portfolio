@@ -248,8 +248,8 @@ export default function Header() {
               key={item.id}
               onClick={() => scrollToSection(item.id, item.href)}
               className={`font-robotoCondensed text-lg transition-colors duration-300
-                ${scrolled ? 'text-[#D4AE6E] hover:text-white' : 'text-black hover:text-[#D4AE6E]'}
-                ${activeSection === item.id && scrolled ? "text-white" : ""}
+                ${scrolled ? 'text-[#D4AE6E] hover:text-black' : 'text-black hover:text-[#D4AE6E]'}
+                ${activeSection === item.id && scrolled ? "text-black" : ""}
                 ${activeSection === item.id && !scrolled ? "text-[#D4AE6E]" : ""}`}>
               {item.label}
             </button>
