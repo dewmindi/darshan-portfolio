@@ -287,7 +287,7 @@ export default function Component() {
               },
               {
                 title: "Deffence Of Innocent Dissemination: Is it an unethical safe house for social media to circumvent defamation liabilities",
-                pdf: "/articles/article2.pdf",
+                pdf: "/articles/article5.pdf",
                 preview: "/previews/Defence-of-Innocent-Dissemination-Image.png",
               },
               {
