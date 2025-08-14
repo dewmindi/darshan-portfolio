@@ -300,11 +300,17 @@ export default function Component() {
                 pdf: "/articles/article4.pdf",
                 preview: "/previews/Aus-migration-reform-image.png",
               },
+                            {
+                title: "How to apply for a skills assessment in Australia",
+                pdf: "",
+                link:"https://www.sbs.com.au/language/tamil/en/podcast-episode/how-to-apply-for-a-skills-assessment-in-australia/d5sye054x",
+                preview: "/previews/DarshanArticle.png",
+              },
               // Add more articles here
             ].map((article, index) => (
               <a
                 key={index}
-                href={article.pdf}
+                href={article.link || article.pdf}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -319,7 +325,7 @@ export default function Component() {
                     />
                     <div className="p-4">
                       <h3 className="font-bold text-sm text-black mb-2">{article.title}</h3>
-                      <p className="text-gray-600 text-sm">Click to read full PDF</p>
+                      <p className="text-gray-600 text-sm">{article.link ? "Click to Read Full Article" : "Click to Read Full PDF"}</p>
                     </div>
                   </CardContent>
                 </Card>
