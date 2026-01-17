@@ -28,13 +28,13 @@ export default function Component() {
       <NewHero />
       {/* About Section */}
       <section id="about" className="py-16 md:py-12 bg-white">
-        
+
         <div className="container mx-auto px-4 mb">
-                  <p className="text-center text-xl font-robotoCondensed  text-black font-light mb-12">
-          Legal expertise you can trust — for the journey that matters most
-        </p>
+          <p className="text-center text-xl font-robotoCondensed  text-black font-light mb-12">
+            Legal expertise you can trust — for the journey that matters most
+          </p>
           <div className=" mb-12 text-left">
-                        <p className="text-3xl md:text-4xl tracking-wide text-[#a8905e] mb-1 font-semibold font-fellFrench ">
+            <p className="text-3xl md:text-4xl tracking-wide text-[#a8905e] mb-1 font-semibold font-fellFrench ">
               Solicitor Of The Supreme Court of Victoria, Australia
             </p>
             <p className="text-3xl md:text-4xl tracking-wide text-[#a8905e] font-semibold font-fellFrench ">
@@ -72,6 +72,13 @@ export default function Component() {
                 migration cases, further solidifying his reputation as a trusted expert in the field.
               </p>
 
+              <p>
+                In addition to his core practice in Immigration Law, Darshan offers comprehensive legal services across multiple
+                areas of law. His practice extends to Criminal Law, Family Law, Defamation Law, Intervention Orders, and Conveyancing
+                and Property Law. Darshan also assists clients with Building and Construction Disputes, Company Incorporation matters,
+                and related commercial legal requirements, providing practical, client-focused solutions across both personal and business legal needs.
+              </p>
+
               {/* Secondary CTA */}
               <div className="pt-6">
                 <Link href="tel:0435166653">
@@ -94,26 +101,26 @@ export default function Component() {
                 />
                 {/* <p className="text-sm text-gray-500 mt-4">[PHOTO – Personal]</p> */}
               </div>
-            
+
               <div className=" p-4 rounded-lg">
                 {/* <p className="text-sm text-gray-600 mb-2">[LOGOS - Migration Alliance and LIV]</p> */}
                 <div className="flex justify-center space-x-4  ">
-                  <div className="flex text-black px-3 py-1 rounded text-xs border hover:scale-110 shadow-md">          
+                  <div className="flex text-black px-3 py-1 rounded text-xs border hover:scale-110 shadow-md">
                     <Image
-                    src="/vlcbLogo.jpeg"
-                    alt="Lawyer Darshan - Professional Photo"
-                    width={200}
-                    height={100}
-                    className="mx-auto rounded-lg object-scale-down "
+                      src="/vlcbLogo.jpeg"
+                      alt="Lawyer Darshan - Professional Photo"
+                      width={200}
+                      height={100}
+                      className="mx-auto rounded-lg object-scale-down "
                     />
                   </div>
-                  <div className=" text-black px-3 py-1 rounded text-xs border hover:scale-110 shadow-md">          
+                  <div className=" text-black px-3 py-1 rounded text-xs border hover:scale-110 shadow-md">
                     <Image
-                    src="/mmalogo.png"
-                    alt="Lawyer Darshan - Professional Photo"
-                    width={200}
-                    height={100}
-                    className="mx-auto rounded-lg  "
+                      src="/mmalogo.png"
+                      alt="Lawyer Darshan - Professional Photo"
+                      width={200}
+                      height={100}
+                      className="mx-auto rounded-lg  "
                     />
                   </div>
                   <div className="flex text-black px-3 py-1 rounded text-xs border hover:scale-110 shadow-md">
@@ -270,7 +277,7 @@ export default function Component() {
         </div>
       </section>
 
-      <PartnersSection/>
+      <PartnersSection />
 
       <section id="blogs" className="py-16 md:py-24 bg-white">
         <div className=" container mx-auto px-4">
@@ -300,10 +307,10 @@ export default function Component() {
                 pdf: "/articles/article4.pdf",
                 preview: "/previews/Aus-migration-reform-image.png",
               },
-                            {
+              {
                 title: "How to apply for a skills assessment in Australia",
                 pdf: "",
-                link:"https://www.sbs.com.au/language/tamil/en/podcast-episode/how-to-apply-for-a-skills-assessment-in-australia/d5sye054x",
+                link: "https://www.sbs.com.au/language/tamil/en/podcast-episode/how-to-apply-for-a-skills-assessment-in-australia/d5sye054x",
                 preview: "/previews/DarshanArticle.png",
               },
               // Add more articles here
@@ -369,50 +376,6 @@ export default function Component() {
       </section>
 
       {/* Footer Section */}
-      {/* <footer className="bg-[#1e293b] text-white py-16">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h3 className="text-2xl md:text-3xl font-bold mb-4 text-yellow-500">NEED LEGAL HELP?</h3>
-            <Link href="tel:0435166653">
-              <Button className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold text-xl px-8 py-4 rounded-lg">
-                <Phone className="mr-2 h-5 w-5" />
-                CALL 0435 166 653
-              </Button>
-            </Link>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
-            <div className="text-center md:text-left">
-              <h4 className="font-bold text-lg mb-4 text-yellow-500">Contact Information</h4>
-              <div className="space-y-2">
-                <div className="flex items-center justify-center md:justify-start">
-                  <Mail className="h-5 w-5 mr-2 text-yellow-500" />
-                  <span>[Email]</span>
-                </div>
-                <div className="flex items-center justify-center md:justify-start">
-                  <MapPin className="h-5 w-5 mr-2 text-yellow-500" />
-                  <span>[Address]</span>
-                </div>
-              </div>
-            </div>
-
-            <div className="text-center">
-              <h4 className="font-bold text-lg mb-4 text-yellow-500">Our Education Partners</h4>
-              <div className="bg-gray-700 p-4 rounded-lg">
-                <p className="text-sm text-gray-300">[LOGOS (to be sent)]</p>
-              </div>
-            </div>
-
-            <div className="text-center md:text-right">
-              <div className="bg-yellow-500 text-black px-6 py-3 rounded font-bold inline-block">[Logo]</div>
-            </div>
-          </div>
-
-          <div className="border-t border-gray-700 pt-8 text-center text-gray-400">
-            <p>&copy; {new Date().getFullYear()} Lawyer Darshan. All rights reserved.</p>
-          </div>
-        </div>
-      </footer> */}
       <footer className="bg-[#1e293b] text-white py-16">
         <div className="container mx-auto px-4">
           {/* Grid for main footer columns */}
@@ -479,8 +442,12 @@ export default function Component() {
 
           {/* Copyright Section */}
           <div className="flex flex-col md:flex-row md:justify-between border-t border-gray-700 pt-8 text-center md:text-left text-gray-400 font-robotoCondensed">
-            <p>&copy; {new Date().getFullYear()} Copyright (c) 2025 Lawyer Darshan. All rights reserved.</p>
-            <p> Website By Dew_mindi</p>
+            <p>&copy; {new Date().getFullYear()} Copyright Lawyer Darshan. All rights reserved.</p>
+            <Link href="https://dewmindi.online"
+              target="_blank"
+              rel="noopener noreferrer">
+              <p> Website By Dew_mindi</p>
+            </Link>
           </div>
         </div>
       </footer>

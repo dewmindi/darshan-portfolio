@@ -11,10 +11,10 @@ const Hero = () => {
       {/* It's positioned absolutely, taking up 60% width from the right */}
       <div className="absolute inset-0 z-0 w-full  right-0">
         <div className='relative z-10 mt-36 left-full'>
-                                <p className="text-sm md:text-base uppercase tracking-widest text-white mb-4 font-robotoCondensed">
+           <p className="text-sm md:text-base uppercase tracking-widest text-white mb-4 font-robotoCondensed">
               Solicitor of the Supreme Court of Victoria, Australia
             </p>
-             <p className="text-sm md:text-base uppercase tracking-widest text-[#D4AE6E] mb-4 font-robotoCondensed">
+            <p className="text-sm md:text-base uppercase tracking-widest text-[#D4AE6E] mb-4 font-robotoCondensed">
               Barrister and Solicitor of the High Court of New Zealand
             </p>
         </div>
@@ -38,14 +38,6 @@ const Hero = () => {
         {/* This div will cover the left 40% of the screen, sitting on top of the main section's black background */}
         <div className="w-full md:w-[100%] bg-gradient-to-r from-black/90 via-black/90 to-transparent flex flex-col justify-center py-16 md:py-24 px-4 md:px-12 text-white">
           <div className="max-w-xl mx-auto md:mx-0 md:text-left text-center">
-            {/* "CRIMINAL BARRISTER Melbourne" */}
-            {/* <p className="text-sm md:text-base uppercase tracking-widest text-[#D4AE6E] mb-4 font-robotoCondensed">
-              Solicitor of the Supreme Court of Victoria, Australia
-            </p>
-             <p className="text-sm md:text-base uppercase tracking-widest text-[#D4AE6E] mb-4 font-robotoCondensed">
-              Barrister and Solicitor of the High Court of New Zealand
-            </p> */}
-
             {/* Main Headline */}
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight font-fellFrench text-white">
               Do You Need Legal Help?

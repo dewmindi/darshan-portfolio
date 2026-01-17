@@ -17,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${robotoCondensed.variable} ${fellFrench.variable}`}>
+    <html lang="en" className={ `${robotoCondensed.variable} ${fellFrench.variable}`}>
       <body>{children}</body>
     </html>
   )

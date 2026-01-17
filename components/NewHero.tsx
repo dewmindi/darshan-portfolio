@@ -87,7 +87,7 @@ const NewHero = () => {
       <div className="relative z-10 flex flex-col md:flex-row w-full transition-all duration-900 animate-fadeInSlideDown">
         <div className="w-full md:w-[100%] bg-gradient-to-r from-black/90 via-black/90 to-transparent flex flex-col justify-center py-16 md:py-24 px-4 md:px-12 text-white">
           <div className="max-w-xl mx-auto md:mx-0 md:text-left text-center pt-20 md:pt-0"> {/* ADDED PADDING HERE */}
-            <h2 className="text-3xl md:text-4xl md:mt-10 font-bold text-[#a8905e] mb-4 font-fellFrench ">Migration Lawyer Australia</h2>
+            <h2 className="text-3xl md:text-4xl md:mt-10 font-bold text-[#a8905e] mb-4 font-fellFrench ">Migration & Criminal Lawyer in Australia</h2>
             <h1 className="mt-10 text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight font-fellFrench text-white">
               Do You Need Legal Help?
             </h1>
